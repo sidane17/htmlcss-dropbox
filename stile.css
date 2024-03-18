@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 /****************common**************** */
+.boxed{
+    width: 70%;
+}
 
 /* header */
 header{
@@ -180,6 +183,36 @@ header{
     justify-items: center;
     align-items: center;
 }
+.container4{
+    border-style: dashed;
+    width: 70%;
+    height: fit-content;
+    margin-top: 2%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card4{
+    height: 30rem;
+    width: calc(100%/3);
+    border-style: dashed;
+    
+
+}
+.bar4{
+    height: 50%;
+    width: 100%;
+    border-style: dashed;
+    text-align: center;
+    
+}
+.blocco_footer4{
+    margin-top: 2%;
+    width: 50%;
+}
+/* ***************Blocco5************** */
+
 
 
 /* footer */
