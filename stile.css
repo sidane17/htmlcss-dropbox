@@ -212,6 +212,32 @@ header{
     width: 50%;
 }
 /* ***************Blocco5************** */
+.blocco5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    height: 33rem;
+    border-style: dashed;
+    width: 100%;
+}
+.card5_b1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: calc(100%/3);
+    border-style: dashed;
+}
+.card5_b2{
+    height: 100%;
+    width: calc(100%/3);
+   
+}
+.partner{
+    border-style: dashed;
+    height: 50%;
+    width: 50%;
+}
+
 
 
 
