@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/****************common**************** */
+
 /* header */
 header{
     background-color: blue;
@@ -31,7 +33,7 @@ header{
     border-radius: 5px;
 
     height:100%;
-    width: 25%;
+    width: 35%;
     border-style: dashed;
 }
 .button{
@@ -41,10 +43,12 @@ header{
     border-style: dashed;
 }
 /* main */
+/***************** blocco1 ******************/
 .blocco1{
     display: flex;
     margin-top: 0%;
     height: 40rem;
+    
     border-style: dashed;
     background-color: aqua;
     flex-direction: column;
@@ -73,6 +77,68 @@ header{
     display: flex;
     height: 60%;
     width: 70%;
+}
+/***************** blocco2 ******************/
+/* .container1{
+    height: fit-content;
+    width:fit-content ;
+} */
+.blocco2{
+    display: flex;
+    margin-top: 0%;
+    height:fit-content;
+    width: 100%;
+    border-style: dashed;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.card2_b1{
+    margin-top: 3%;
+    border-style: dashed;
+    height: 15%;
+    width: 70%;
+}
+.card{
+    height: 47rem;
+    width: calc(100%/3);
+    border-style: dashed;
+    margin: 5%;
+}
+.bar{
+    height: 15%;
+    width: 100%;
+    border-style: dashed;
+    text-align: center;
+}
+/* h3{
+    margin-top: 5%;
+} */
+.Titolo_b{
+    font-size:3rem;
+}
+#input{
+    margin-right:0%;
+}
+.card2{
+    height: 12rem;
+    width: 65%;
+    border-style: dashed;
+    margin: 5%;
+}
+.bar2{
+    height: 20%;
+    width: 100%;
+    border-style: dashed;
+    text-align: center;
+    
+}
+.container2{
+    margin-top: 2%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
 /* footer */
