@@ -237,8 +237,81 @@ header{
     height: 50%;
     width: 50%;
 }
-
-
-
-
+/* ***************Blocco6************** */
+.blocco6{
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    height: 20rem;
+    width: 100%;
+    background-color: rgba(60, 60, 57, 0.178);
+}
+.card6{
+    border-style: dashed;
+    position: absolute;
+    width: 60%;
+    left: calc(+20%);
+    display: flex;
+    flex-direction: row;
+}
+/* h1{
+    width: 50%;
+} */
+.card6_b1{
+    border-style: dashed;
+    color: brown;
+    
+    width: 40%;
+}
+.card6_b2{
+    border-style: dashed;
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    width: 60%;
+  
+}
+/* ***************Blocco7************** */
+.blocco7{
+    height:fit-content;
+    margin-top: 3%;
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+}
+.Q1{
+    font-size:x-large;
+    margin-bottom: 3%;
+}
+.q{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
 /* footer */
+/* ***************Blocco8************** */
+.blocco8{
+    height: 25rem;
+    background-color: rgb(0, 0, 0);
+    border-style: dashed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card_b8{
+    margin: 4%;
+    color: white;
+}
+h3{
+    margin-bottom: 1rem;
+}
+.final{
+    position: absolute;
+ 
+    left: 0;
+    background-color: blueviolet;
+    border-top-color: aliceblue ;
+    color: white;
+    height:3rem ;
+    width: fit-content;
+}
