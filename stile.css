@@ -2,10 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+/****************icon**************** */
+
+.icon_b1{
+    margin-top: 20%;
+    font-size:2.5rem;
+    margin-bottom: 0%;
+}
+.icon_bar{
+    font-size:medium ;
+    margin-right: 0.3rem;
+  
+}
+.i_blu{
+    
+    color: rgb(0, 147, 206) ;
+}
+i{
+    margin-right: 2%;
+}
+
 /****************common**************** */
 .boxed{
     width: 70%;
+}
+.flex_roq{
+    display: flex; flex-direction: row;
 }
 .img{
     height: 100%;
@@ -14,6 +38,7 @@
 .img_p{
     width: 60%;
     color: white;
+    filter: invert(100%);
 }
 .img_over{
     width: 100%;
@@ -62,13 +87,23 @@
 .greyy{
     background-color:rgb(180, 208, 231) ;
 }
+.borderBottom{
+    border-bottom:solid ;
+}
 
 /* header */
 header{
+    border-bottom: solid;
+    border-color: rgb(175, 175, 175);
+    background-color: white;
+    width: 100%;
+    position: fixed;
     height: 5rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    z-index: 1;
+
 }
 .head1{
     width: 30%;
@@ -96,9 +131,10 @@ header{
     width: 25%;
     
 }
-/* .button:hover{
-    background-color:rgb(231, 228, 228);
-} */
+.button:hover{
+   border-bottom: solid;
+   border-color: grey;
+}
 .blu{
     color: white;
     background-color: rgb(42, 119, 235);
@@ -196,7 +232,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: fit-content;
+    height: 6%;
     width: 100%;
 }
 .card_container{
@@ -314,7 +350,6 @@ header{
     flex-wrap: wrap;
     margin-top: 3%;
     height: 33rem;
-    border-style: dashed;
     width: 100%;
 }
 .card5_b1{
@@ -322,7 +357,6 @@ header{
     flex-wrap: wrap;
     height: 100%;
     width: calc(100%/3);
-    border-style: dashed;
 }
 .card5_b2{
     height: 100%;
@@ -337,13 +371,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: dashed;
     height: 50%;
     width: 50%;
 }
 /* ***************Blocco6************** */
 .blocco6{
-    border-style: dashed;
     display: flex;
     align-items: center;
     height: 20rem;
@@ -375,36 +407,78 @@ header{
     padding: 2%;
     font-size:medium;
 }
+.button6:hover{
+    border-bottom: solid;
+    border-color: grey;
+ }
 /* ***************Blocco7************** */
+
 .blocco7{
+width: 100%;
+height: 30rem;
+display: flex;
+flex-direction:column;
+align-items: center;
+}
+
+.container7{
     height:fit-content;
     margin-top: 3%;
     width: 60%;
-    display: flex;
-    flex-direction:column;
+    margin-bottom: 1%;
+
+
 }
+
 .Q1{
     font-size:x-large;
     margin-bottom: 3%;
 }
+
 .q{
-    margin-top: 4%;
-    margin-bottom: 4%;
+
+    display: flex;
+    border-top: solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    border-color: grey;
+    height: 45%;
+  
 }
+.down{
+    position: absolute;
+    right:20%;
+}
+
+.hover{
+    height: 0px;
+    opacity: 0;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+:hover.q .hover  {
+    opacity: 1;
+    height: 70%;
+    transition: 1s;
+    
+}
+
 /* footer */
 /* ***************Blocco8************** */
 .blocco8{
     height: 25rem;
     background-color: rgb(0, 0, 0);
-    border-style: dashed;
-    width: 100%;
    
-    
+    width: 100%;
 }
+
 .container8{
     display: flex;
     justify-content: center; 
-    border-style: dashed;
+   
 }
 
 .card_b8{
@@ -416,7 +490,7 @@ header{
     border-top-color: aliceblue ;
     color: white;
     padding-top: 3%;
-    margin-left: 14% ;
+    margin-left: 13% ;
     width: 10%;
     border-top: solid;
     border-color: white;
