@@ -7,80 +7,155 @@
 .boxed{
     width: 70%;
 }
+.img{
+    height: 100%;
+    width: 100%;
+}
+.img_p{
+    width: 60%;
+    color: white;
+}
+.img_over{
+    width: 100%;
+}
+.grey{
+    color:  rgba(180, 180, 180, 0.476);
+}
+.opacity{
+    opacity:0.7 ;
+}
+.hide{
+    overflow: hidden;
+}
+.button_grey{
+    background-color: white;
+    border-color: grey;
+    padding: 2%;
+    color: rgb(96, 96, 96);
+    margin-top: 25%;
+}
+.white{
+    background-color: white;
+    border: none;
+}
+.green{
+    background-color: rgb(162, 211, 155);
+}
+.sky{
+    background-color:rgb(0, 147, 206) ;
+}
+.red{
+    background-color: rgb(255, 28, 28);
+}
+.dark_red{
+    background-color: rgb(97, 8, 43);
+}
+.alternative_red{
+    background-color: rgb(213, 0, 31);
+}
+.dark_blu{
+    background-color: rgb(13, 36, 129);
+}
+.yellow{
+    background-color:rgb(255, 216, 48) ;
+}
+.greyy{
+    background-color:rgb(180, 208, 231) ;
+}
 
 /* header */
 header{
-    background-color: blue;
     height: 5rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    /* position: fixed; */
-    
 }
 .head1{
     width: 30%;
-    height:80%;
-    
+    height:50%;
     display: flex;
     flex-direction: row;
 }
 .head2{
     width: 30%;
-    height:80%;
-    
+    height:50%;
     display: flex;
     flex-direction: row;
 }
 .logo{
+    display: flex;
+    align-items: center;
     border-radius: 5px;
-
     height:100%;
     width: 35%;
-    border-style: dashed;
 }
 .button{
-    border-radius: 5px;
+    border-style: none;
+    background-color:white;
     height:100%;
     width: 25%;
-    border-style: dashed;
+    
 }
-/* main */
+/* .button:hover{
+    background-color:rgb(231, 228, 228);
+} */
+.blu{
+    color: white;
+    background-color: rgb(42, 119, 235);
+}
+
+
+/********************************main ******************************/
+
+
 /***************** blocco1 ******************/
 .blocco1{
     display: flex;
     margin-top: 0%;
     height: 40rem;
-    
-    border-style: dashed;
-    background-color: aqua;
+    background-color: rgb(180, 208, 231);
     flex-direction: column;
     align-items: center;
-
 }
+/*  */
 .card_b1{
     margin-top:5%;
-    border-style: dashed;
+    
     height: 30%;
     width: 70%;
+    font-size: 2.5rem;
 }
+/*  */
 .card_b2{
-   
-    border-style: dashed;
     height: 100%;
     width: 30%;
 }
+/*  */
+.card_b2 p{
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+/*  */
+.button1{
+    border-style: none;
+    margin-bottom: 3%;
+    height:10%;
+    width: 60%;
+}
+/*  */
 .card_b3{
-    background-color: violet;
-    border-style: dashed;
     height: 100%;
     width: 70%;
 }
+
+/*  */
 .container{
     display: flex;
     height: 60%;
     width: 70%;
 }
+
+
 /***************** blocco2 ******************/
 /* .container1{
     height: fit-content;
@@ -91,7 +166,7 @@ header{
     margin-top: 0%;
     height:fit-content;
     width: 100%;
-    border-style: dashed;
+    
     flex-direction: column;
     justify-items: center;
     align-items: center;
@@ -99,21 +174,33 @@ header{
 }
 .card2_b1{
     margin-top: 3%;
-    border-style: dashed;
     height: 15%;
     width: 70%;
 }
+.input{
+    margin-top: 6%;
+    font-size:1.2rem;
+}
 .card{
-    height: 47rem;
+    height: 45rem;
     width: calc(100%/3);
-    border-style: dashed;
+    border-style: groove;
+    border-top: none;
     margin: 5%;
+    border-color: rgba(255, 255, 255, 0.297);
 }
 .bar{
-    height: 15%;
+    border-top: solid;
+    border-bottom: solid;
+    border-color:  rgba(180, 180, 180, 0.476);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
     width: 100%;
-    border-style: dashed;
-    text-align: center;
+}
+.card_container{
+    margin: 5%;
 }
 /* h3{
     margin-top: 5%;
@@ -121,19 +208,23 @@ header{
 .Titolo_b{
     font-size:3rem;
 }
-#input{
-    margin-right:0%;
-}
+
 .card2{
-    height: 12rem;
+    height: 13rem;
     width: 65%;
-    border-style: dashed;
+    border-color: rgba(255, 255, 255, 0.297);
+    border-style: groove;
     margin: 5%;
 }
+
 .bar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 20%;
     width: 100%;
-    border-style: dashed;
+    border-bottom: solid;
+    border-color:  rgba(180, 180, 180, 0.476);
     text-align: center;
     
 }
@@ -143,6 +234,18 @@ header{
     justify-content:space-between;
     align-items: center;
 }
+.button2{
+    border-style: none;
+    margin-bottom: 3%;
+    padding:5%;
+    width: 70%;
+}
+.button3{
+    border-style: none;
+    margin-bottom: 3%;
+    padding:1%;
+    width: 20%;
+}
 /******************blocco3******************/
 .blocco3{
     display: flex;
@@ -151,24 +254,18 @@ header{
     margin-top: 0%;
     height: 30rem;
     width: 100%;
-    border-style: dashed;
-    background-color: aqua;
     align-items: center;  
 }
 .card3_b1{
-    background-color: violet;
-    border-style: dashed;
     height: 100%;
     width: 40%;
 }
 .card3_b2{
-    
+    margin: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: violet;
-    border-style: dashed;
     height: 100%;
     width: 20%;
 }
@@ -178,13 +275,13 @@ header{
     margin-top: 0%;
     height:fit-content;
     width: 100%;
-    border-style: dashed;
+    
     flex-direction: column;
     justify-items: center;
     align-items: center;
 }
 .container4{
-    border-style: dashed;
+  
     width: 70%;
     height: fit-content;
     margin-top: 2%;
@@ -196,14 +293,14 @@ header{
 .card4{
     height: 30rem;
     width: calc(100%/3);
-    border-style: dashed;
+    
     
 
 }
 .bar4{
     height: 50%;
     width: 100%;
-    border-style: dashed;
+    margin-bottom: 5%;
     text-align: center;
     
 }
@@ -230,9 +327,16 @@ header{
 .card5_b2{
     height: 100%;
     width: calc(100%/3);
-   
+    background-color: rgb(245, 245, 245);
+}
+.img_container5{
+    margin: 8%;
+    width: 60%;
 }
 .partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-style: dashed;
     height: 50%;
     width: 50%;
@@ -244,10 +348,9 @@ header{
     align-items: center;
     height: 20rem;
     width: 100%;
-    background-color: rgba(60, 60, 57, 0.178);
+    background-color: rgb(180, 208, 231);
 }
 .card6{
-    border-style: dashed;
     position: absolute;
     width: 60%;
     left: calc(+20%);
@@ -258,18 +361,19 @@ header{
     width: 50%;
 } */
 .card6_b1{
-    border-style: dashed;
     color: brown;
-    
     width: 40%;
 }
 .card6_b2{
-    border-style: dashed;
     display: flex;
     align-items:center;
     justify-content:end;
     width: 60%;
   
+}
+.button6{
+    padding: 2%;
+    font-size:medium;
 }
 /* ***************Blocco7************** */
 .blocco7{
@@ -307,9 +411,7 @@ header{
     margin: 3%;
     color: white;
 }
-h3{
-    margin-bottom: 1rem;
-}
+
 .final{
     border-top-color: aliceblue ;
     color: white;

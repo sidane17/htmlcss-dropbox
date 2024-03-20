@@ -3,81 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dropbox</title>
     <link rel="stylesheet" href="stile.css">
 </head>
 <body>
-    <header>
 <!-------------sezione navbar---------------->
+    <header>
         <div class="head1">
-            <div class="logo"></div>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
+            <div class="logo"> <img src="/img/logo-small.png" alt=""></div>
+            <button class="button">Perchè Dropbox</button>
+            <button class="button">Funzioni</button>
+            <button class="button">Piani e Prezzi</button>
         </div>
+
         <div class="head2">
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
-            <button class="button"></button>
+            <button class="button">Supporto</button>
+            <button class="button">Contatta l'ufficio vendite</button>
+            <button class="button">Accedi</button>
+            <button class="button blu">Inizia</button>
         </div>
     </header>
     <main>
-        <!-- blocco1 -->
+ <!-------------blocco1---------------->
         <div class="blocco1">
-            <div class="card_b1"></div>
+
+            <div class="card_b1">
+                <h1>Tutto ciò che ti serve per il lavoro, in un minuto</h1>
+            </div>
+
             <div class="container">
-            <div class="card_b2"></div>
-            <div class="card_b3"></div>
+                <div class="card_b2">
+                    <p>Finalmente i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio archiviazione sicuro:è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente </p>
+                    <button class="button1 blu"> <b>Inizia la tua prova gratuita</b></button>
+                    <br>
+                    <p>Annulla in qualsiasi momento</p>
+                </div>
+
+                <div class="card_b3"><img src="/img/jumbo.png" alt="" class="img_over"></div>
             </div>
         </div>
 <!---------blocco2------------------->
         <div class="blocco2">
+
             <div class="card2_b1">
-                <h1><b class="Titolo_b">Trova il piano business che fa per te </b></h1><br>
-                <label for="input">
-                <input id="input" type="radio">Fattura mensile 
-                <input id="input" type="radio">Fatturazione annuale+
-            </label>
+                <h1><b class="Titolo_b">Trova il piano business che fa per te </b></h1>
+                <div class="input">
+                  <input type="radio" id="id1" name="choose"  >
+                <label for="id1">Fatturazione mensile</label>
+                <input type="radio" id="id2" name="choose" >
+                <label for="id2">Fatturazione annuale</label>  
+                </div>
+                
             </div>
+
             <div class="container">
                 <div class="card">
                     <div class="bar"><h3>Singolo</h3></div>
+                    <div class="card_container">
                     <h2>Professional</h2><br>
                     <p>€ 12.00</p><br>
                     <p class="opacity">/mese</p><br>
                     <p>1utente</p><br>
                     <p>Tutto lo spazio di cui ha bisogno il tuo team </p>
                     <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team </p><br>
-                    <button class="button_blu">Prova per 30 giorni</button><br>
+                    <button class="button2 blu">Prova per 30 giorni</button><br>
                     <p>oppure <a href="">aquista ora</a></p><br>
-                    <p>_________</p><br>
-                    <b>Punti Salienti del piano</b><br>
+                    <p class="grey">_________</p><br>
+                    <b>Punti Salienti del piano</b><br><br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
+                    <br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
-                    <div></div>
+                    </div>
                 </div>
                 <div class="card">
                     <div class="bar"><h3>Team</h3></div>
+                    <div class="card_container">
                     <h2>Advanced</h2><br>
                     <p>€ 18.00</p><br>
                     <p class="opacity">/utente/mese</p><br>
                     <p>3 o piu utenti</p><br>
                     <p>Tutto lo spazio di cui ha bisogno il tuo team </p>
                     <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team </p><br>
-                    <button class="button_blu">Prova per 30 giorni</button><br>
+                    <button class="button2 blu">Prova per 30 giorni</button><br>
                     <p>oppure <a href="">aquista ora</a></p><br>
-                    <p>_________</p><br>
-                    <b>Punti Salienti del piano</b><br>
+                    <p class="grey">_________</p><br>
+                    <b>Punti Salienti del piano</b><br><br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
+                    <br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
+                    <br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
+                    <br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
+                    <br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
-                    <div></div>
+                    </div>
                 </div>
                 <div class="card">
                     <div class="bar"><h3>Azienda</h3></div>
+                    <div class="card_container">
                     <h2>Entrerprise</h2><br>
                     <p>Contattaci</p><br>
                     <p class="opacity">-</p><br> 
@@ -85,35 +109,35 @@
                     <p>Tutto lo spazio di cui ha bisogno il tuo team </p>
                     <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team </p><br>
                     <br>
-                    <button class="button_blu">Contattaci</button><br>
+                    <button class="button2 blu">Contattaci</button><br>
                     <p>oppure <a href="">aquista ora</a></p><br>
-                    <p>_________</p><br>
-                    <b>Punti Salienti del piano</b><br>
+                    <p class="grey">_________</p><br>
+                    <b>Punti Salienti del piano</b><br><br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
+                    <br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
+                    <br>
                     <p>Invia file fino a 100 GB con Dropbox</p>
-                    <div></div>
+                    </div>
                 </div>
             </div>
             <div class="card2">
-                <div class="bar2"><h2>Team</h2></div>
+                <div class="bar2"><h3>Team</h3></div>
                 <div class="container2">
                     <h2>Entrerprise</h2>
-                    <button> Contatta l'ufficio vendite</button>
+                    <button class="button3 blu"> Contatta l'ufficio vendite</button>
                 </div><br>
                 <p><b>Contatta l'ufficio  vendite per i pezzi</b></p><br>
-                <p>Soluzioni personallizzate e supporto su misura per aiutare i professionisti IT nella gestioe su qualsiasi scala</p>
+                <p class="opacity">Soluzioni personallizzate e supporto su misura per aiutare i professionisti IT nella gestioe su qualsiasi scala</p>
             </div>
 <!----------------Blocco 3-------------------->
     <div class="blocco3">
-        <div class="card3_b1">
-
-        </div>
+        <div class="card3_b1"><img src="/img/partner.png" alt="" class="img"></div>
         <div class="card3_b2" >
             <h2>Entra in contatto con un partner Dropbox</h2><br>
             <p>Trova un partnerDropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
             <br>
-            <button>Trova un parner</button>
+            <button class="button_grey">Trova un parner</button>
         </div>
     </div>
     <!----------------Blocco 4-------------------->
@@ -123,40 +147,40 @@
         </div>
         <div class="container4">
             <div class="card4">
-                <div class="bar4"><h3></h3></div>
+                <div class="bar4"><img src="/img/business-feature-switching-tools.png" alt="" class="img"></div>
                 <h2>Passa di meno da uno strumento all'altro </h2>
                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di Goggle, file Microsoft Office e ropbox Paper direttamente da DRopblxox</p>
             </div>
             <div class="card4">
-                <div class="bar4"><h3></h3></div>
-                <h2>Passa di meno da uno strumento all'altro </h2>
-                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di Goggle, file Microsoft Office e ropbox Paper direttamente da DRopblxox</p>
-
-               
-            </div>
-            <div class="card4">
-                <div class="bar4"><h3></h3></div>
+                <div class="bar4"><img src="/img/business-feature-send-files-it.png" alt="" class="img"></div>
                 <h2>Passa di meno da uno strumento all'altro </h2>
                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di Goggle, file Microsoft Office e ropbox Paper direttamente da DRopblxox</p>
 
                
             </div>
             <div class="card4">
-                <div class="bar4"><h3></h3></div>
+                <div class="bar4"><img src="/img/business-feature-coordinate-it.png" alt="" class="img"></div>
+                <h2>Passa di meno da uno strumento all'altro </h2>
+                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di Goggle, file Microsoft Office e ropbox Paper direttamente da DRopblxox</p>
+
+               
+            </div>
+            <div class="card4">
+                <div class="bar4"><img src="/img/business-feature-integrations-it.png" alt="" class="img"></div>
                 <h2>Passa di meno da uno strumento all'altro </h2>
                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di Goggle, file Microsoft Office e ropbox Paper direttamente da DRopblxox</p>
 
               
             </div>
             <div class="card4">
-                <div class="bar4"><h3></h3></div>
+                <div class="bar4"><img src="/img/business-feature-multi-device.png" alt="" class="img"></div>
                 <h2>Passa di meno da uno strumento all'altro </h2>
                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di Goggle, file Microsoft Office e ropbox Paper direttamente da DRopblxox</p>
 
                
             </div>
             <div class="card4">
-                <div class="bar4"><h3></h3></div>
+                <div class="bar4"><img src="/img/business-feature-security.png" alt="" class="img"></div>
                 <h2>Passa di meno da uno strumento all'altro </h2>
                 <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di Goggle, file Microsoft Office e ropbox Paper direttamente da DRopblxox</p>
 
@@ -172,33 +196,49 @@
 <!------------Blocco5 -------------->
         <div class="blocco5">
             <div class="card5_b1">
-                <div class="partner">
+                <div class="partner green">
+                    <img src="/img/designit.svg" alt="" class="img_p">
 
                 </div>
-                <div class="partner">
+                <div class="partner dark_red">
+                    <img src="/img/arizona_state_university.svg" alt="" class="img_p">
 
                 </div>
-                <div class="partner">
+                <div class="partner sky">
+                    <img src="/img/university_of_florida.svg" alt="" class="img_p">
 
                 </div>
-                <div class="partner">
+                <div class="partner red">
+                    <img src="/img/topps.svg" alt="" class="img_p">
 
                 </div>
             </div>
             <div class="card5_b2">
-                
+                <div class="img_container5">
+                <img src="/img/designit.svg" alt=""  class="img">
+                <p class="grey">____________</p>
+                <br>
+                <p>"I membri del nostro team lavorando costantemente in paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quando Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quando Dropbox Paper "</p>
+                <br><br>
+                <p>Morten Thomsen, Global IT Lead</p>
+                </div>
             </div>
             <div class="card5_b1">
-                <div class="partner">
+                <div class="partner alternative_red">
+                    <img src="/img/world_bicycle_relief.svg" alt="" class="img_p">
+
 
                 </div>
-                <div class="partner">
+                <div class="partner greyy">
+                    <img src="/img/hearst_corp.svg" alt="" class="img_p">
 
                 </div>
-                <div class="partner">
+                <div class="partner dark_blu">
+                    <img src="/img/lonely_planet.svg" alt="" class="img_p">
 
                 </div>
-                <div class="partner">
+                <div class="partner yellow">
+                    <img src="/img/clear_channel.svg" alt="" class="img_p">
 
                 </div>
             </div>
@@ -207,7 +247,7 @@
         <div class="blocco6">
             <div class="card6">
                 <div class="card6_b1"> <h1>Porta Dropbox Business nella tua azienda </h1></div>
-                <div class="card6_b2"><button>Inizia la tua prova gratuita</button></div>
+                <div class="card6_b2"><button class="button6 white">Inizia la tua prova gratuita</button></div>
             </div>
             
         </div>
